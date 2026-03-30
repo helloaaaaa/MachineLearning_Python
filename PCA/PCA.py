@@ -4,7 +4,7 @@
 import numpy as np
 from matplotlib import pyplot as plt
 from scipy import io as spio
-from sklearn.decomposition import pca
+from sklearn.decomposition import PCA as SklearnPCA
 
 '''
 主成分分析_2维数据降维1维演示函数
